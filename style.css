@@ -1,0 +1,57 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+hr{
+  background: white;
+}
+
+ .contact-form{
+  background:rgba(0, 0, 0, .6);
+  color:white;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 3px gray;
+  font-family: 'Oswald', sans-serif;
+}
+.bg-contact100 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container-contact100 {
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.form-control{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+  font-family: 'Oswald', sans-serif;
+}
+.form-control:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.form-control{
+  font-family: 'Oswald', sans-serif;
+  resize: none;
+  height: 120px;
+}
+
+.contact-form{
+  text-align: center;
+  color: #ddd;
+
+
+</style>
